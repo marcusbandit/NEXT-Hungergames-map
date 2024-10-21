@@ -1,0 +1,15 @@
+{
+    "pack": {
+        "pack_format": 48,
+        "description": [
+            {
+                "text": "The NEXT Hungergames!",
+                "color": "gold"
+            },
+            {
+                "text": "\nBy Marcus & Albert!",
+                "color": "yellow"
+            }
+        ]
+    }
+}

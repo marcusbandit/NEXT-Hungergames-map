@@ -1,0 +1,254 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+      {
+          "rolls": {
+              "min": 2,
+              "max": 4
+          },
+          "entries": [
+              {
+                  "type": "minecraft:item",
+                  "name": "minecraft:stick",
+                  "weight": 2,
+                  "functions": [
+                      {
+                          "function": "minecraft:set_count",
+                          "count": {
+                              "min": 2,
+                              "max": 4
+                          }
+                      }
+                  ]
+              },
+              {
+                  "type": "minecraft:item",
+                  "name": "minecraft:iron_nugget",
+                  "weight": 1,
+                  "functions": [
+                      {
+                          "function": "minecraft:set_count",
+                          "count": {
+                              "min": 8,
+                              "max": 15
+                          }
+                      }
+                  ]
+              },
+              {
+                  "type": "minecraft:item",
+                  "name": "minecraft:iron_ingot",
+                  "weight": 3,
+                  "functions": [
+                      {
+                          "function": "minecraft:set_count",
+                          "count": {
+                              "min": 3,
+                              "max": 5
+                          }
+                      }
+                  ]
+              },
+              {
+                  "type": "minecraft:item",
+                  "name": "minecraft:gold_ingot",
+                  "weight": 2,
+                  "functions": [
+                      {
+                          "function": "minecraft:set_count",
+                          "count": {
+                              "min": 4,
+                              "max": 8
+                          }
+                      }
+                  ]
+              },
+              {
+                  "type": "minecraft:item",
+                  "name": "minecraft:diamond",
+                  "weight": 1,
+                  "functions": [
+                      {
+                          "function": "minecraft:set_count",
+                          "count": {
+                              "min": 1,
+                              "max": 3
+                          }
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "rolls": {
+              "min": 1,
+              "max": 2
+          },
+          "entries": [
+              {
+                  "type": "minecraft:item",
+                  "name": "minecraft:golden_apple",
+                  "weight": 1,
+                  "functions": [
+                      {
+                          "function": "minecraft:set_count",
+                          "count": {
+                              "min": 1,
+                              "max": 2
+                          }
+                      }
+                  ]
+              },
+              {
+                  "type": "minecraft:item",
+                  "name": "minecraft:cooked_beef",
+                  "weight": 2,
+                  "functions": [
+                      {
+                          "function": "minecraft:set_count",
+                          "count": {
+                              "min": 3,
+                              "max": 8
+                          }
+                      }
+                  ]
+              },
+              {
+                  "type": "minecraft:item",
+                  "name": "minecraft:cooked_porkchop",
+                  "weight": 2,
+                  "functions": [
+                      {
+                          "function": "minecraft:set_count",
+                          "count": {
+                              "min": 3,
+                              "max": 8
+                          }
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "rolls": 1,
+          "entries": [
+              {
+                  "type": "minecraft:item",
+                  "name": "minecraft:wind_charge",
+                  "functions": [
+                      {
+                          "function": "minecraft:set_count",
+                          "count": {
+                              "min": 12,
+                              "max": 20
+                          }
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "rolls": {
+              "min": 1,
+              "max": 2
+          },
+          "entries": [
+              {
+                  "type": "minecraft:item",
+                  "name": "minecraft:diamond_leggings",
+                  "weight": 1
+              },
+              {
+                  "type": "minecraft:item",
+                  "name": "minecraft:diamond_boots",
+                  "weight": 2
+              },
+              {
+                  "type": "minecraft:item",
+                  "name": "minecraft:diamond_helmet",
+                  "weight": 2
+              },
+              {
+                  "type": "minecraft:item",
+                  "name": "minecraft:diamond_sword",
+                  "weight": 1
+              },
+              {
+                  "type": "minecraft:item",
+                  "name": "minecraft:iron_sword",
+                  "weight": 4
+              },
+              {
+                  "type": "minecraft:item",
+                  "name": "minecraft:iron_axe",
+                  "weight": 2
+              },
+              {
+                  "type": "minecraft:item",
+                  "name": "minecraft:stone_axe",
+                  "weight": 1
+              },
+              {
+                  "type": "minecraft:item",
+                  "name": "minecraft:elytra",
+                  "weight": 1,
+                  "functions": [
+                      {
+                          "function": "minecraft:set_components",
+                          "components": {
+                              "minecraft:max_damage": 22
+                          }
+                      },
+                      {
+                          "function": "minecraft:set_name",
+                          "name": "Icarus"
+                      }
+                  ]
+              },
+              {
+                  "type": "minecraft:item",
+                  "name": "minecraft:shield",
+                  "weight": 1,
+                  "functions": [
+                      {
+                          "function": "minecraft:set_banner_pattern",
+                          "patterns": [
+                              {
+                                  "pattern": "minecraft:base",
+                                  "color": "gray"
+                              },
+                              {
+                                  "pattern": "minecraft:gradient_up",
+                                  "color": "black"
+                              },
+                              {
+                                  "pattern": "minecraft:flower",
+                                  "color": "gray"
+                              },
+                              {
+                                  "pattern": "minecraft:globe",
+                                  "color": "orange"
+                              },
+                              {
+                                  "pattern": "minecraft:mojang",
+                                  "color": "white"
+                              }
+                          ],
+                          "append": true
+                      },
+                      {
+                          "function": "minecraft:set_components",
+                          "components": {
+                              "minecraft:max_damage": 86
+                          }
+                      },
+                      {
+                          "function": "minecraft:set_name",
+                          "name": "LAN Defender"
+                      }
+                  ]
+              }
+          ]
+      }
+  ]
+}

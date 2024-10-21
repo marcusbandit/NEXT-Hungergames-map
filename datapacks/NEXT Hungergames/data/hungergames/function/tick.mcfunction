@@ -1,0 +1,6 @@
+function hungergames:managers/team_manager
+function hungergames:managers/scoreboard_manager
+function hungergames:managers/tp_manager
+function hungergames:managers/title_manager
+function hungergames:managers/gamemode_manager
+function hungergames:managers/pr_manager

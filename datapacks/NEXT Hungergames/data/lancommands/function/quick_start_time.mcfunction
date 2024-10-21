@@ -1,0 +1,2 @@
+scoreboard players set secondCountdown secondCounter 20
+scoreboard players set minuteCountdown secondCounter 0
